@@ -9,12 +9,12 @@ lights I have, but for now this is it.
 
 ## What the hell is a lightswitch rave?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O4gqsuww6lw?start=8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=O4gqsuww6lw
 
 ## `main.py`
 
-This uses @SpotlightKid's [python-rtmidi] in conjunction with anything which can output a MIDI clock (see below).
-On each beat (24 MIDI clock cycles), it uses a Broadlink RM3 (though anything supported by @mjg59's [python-broadlink]
+This uses [python-rtmidi] in conjunction with anything which can output a MIDI clock (see below).
+On each beat (24 MIDI clock cycles), it uses a Broadlink RM3 (though anything supported by [python-broadlink]
 will work) to send an infrared command to the lights, telling them to change their pattern.
 
 ### Getting a MIDI clock
