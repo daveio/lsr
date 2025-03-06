@@ -24,11 +24,11 @@ out of Serato would involve having the decks in SYNC mode permanently. I didn't 
 playback, so I looked into less intelligent ways of doing things.
 
 My first stop was [HoRNet Songkey], a VST/AU which I could put in the audio path using [Audio Hijack].
-*This did not work*. I'm sure it's great for key analysis, but its BPM analysis is hot garbage and the MIDI output it
+_This did not work_. I'm sure it's great for key analysis, but its BPM analysis is hot garbage and the MIDI output it
 promises is only the chords it detects. No beat data. So no.
 
 Next stop was [Wavesum], and this is where choirs of angels sang a heavenly chorus. There's a reason their software is
-so overpriced, and that's because it works *really, really well*. I targeted the cheapest option, [Waveclock], which
+so overpriced, and that's because it works _really, really well_. I targeted the cheapest option, [Waveclock], which
 only sends a MIDI clock out, and the result is good enough. I might upgrade later to [Wavetick], which sends out notes
 based on bar, beat, and 'atom' as they call it. The bar phase analysis is actual witchcraft, and I haven't managed to
 confuse it for more than a bar or two. It'd be quite cool to use the bar signal for major lighting changes, and the beat
